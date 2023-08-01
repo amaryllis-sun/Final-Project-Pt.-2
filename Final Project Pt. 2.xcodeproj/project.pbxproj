@@ -29,6 +29,8 @@
 		BD54B8842A782619002FB4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54B8832A782619002FB4AE /* ContentView.swift */; };
 		BD54B8862A78261B002FB4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54B8852A78261B002FB4AE /* Assets.xcassets */; };
 		BD54B8892A78261B002FB4AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54B8882A78261B002FB4AE /* Preview Assets.xcassets */; };
+		BDCBD4D42A79500F0027F623 /* science.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBD4D32A79500F0027F623 /* science.swift */; };
+		BDCBD4D82A7955360027F623 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBD4D72A7955360027F623 /* NewsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		BD54B8832A782619002FB4AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD54B8852A78261B002FB4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD54B8882A78261B002FB4AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDCBD4D32A79500F0027F623 /* science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = science.swift; sourceTree = "<group>"; };
+		BDCBD4D72A7955360027F623 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		BD54B8752A782619002FB4AE = {
 			isa = PBXGroup;
 			children = (
+				BDCBD4D72A7955360027F623 /* NewsItem.swift */,
 				BD43B4B22A783BCC008239BB /* biology.swift */,
 				BD54B8802A782619002FB4AE /* Final Project Pt. 2 */,
 				BD54B87F2A782619002FB4AE /* Products */,
@@ -107,6 +112,7 @@
 				BD43B4B62A783D12008239BB /* physics.swift */,
 				BD43B4B42A783C2C008239BB /* chemistry.swift */,
 				BD43B4AD2A78269B008239BB /* About Us.swift */,
+				BDCBD4D32A79500F0027F623 /* science.swift */,
 				BD54B8852A78261B002FB4AE /* Assets.xcassets */,
 				BD54B8872A78261B002FB4AE /* Preview Content */,
 			);
@@ -208,7 +214,9 @@
 				BD43B4B52A783C2C008239BB /* chemistry.swift in Sources */,
 				BD43B4C92A783E25008239BB /* chem_eng.swift in Sources */,
 				BD43B4D32A783E67008239BB /* geometry.swift in Sources */,
+				BDCBD4D42A79500F0027F623 /* science.swift in Sources */,
 				BD43B4CD2A783E3E008239BB /* electric_eng.swift in Sources */,
+				BDCBD4D82A7955360027F623 /* NewsItem.swift in Sources */,
 				BD43B4D72A783E8F008239BB /* statistics.swift in Sources */,
 				BD43B4CF2A783E49008239BB /* mech_eng.swift in Sources */,
 			);
