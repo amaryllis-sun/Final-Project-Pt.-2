@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD43B4AE2A78269B008239BB /* About Us.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4AD2A78269B008239BB /* About Us.swift */; };
+		BD43B4B32A783BCC008239BB /* biology.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4B22A783BCC008239BB /* biology.swift */; };
+		BD43B4B52A783C2C008239BB /* chemistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4B42A783C2C008239BB /* chemistry.swift */; };
+		BD43B4B72A783D12008239BB /* physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4B62A783D12008239BB /* physics.swift */; };
+		BD43B4B92A783D1E008239BB /* astronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4B82A783D1E008239BB /* astronomy.swift */; };
+		BD43B4BB2A783D34008239BB /* comp_sci.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4BA2A783D34008239BB /* comp_sci.swift */; };
+		BD43B4BD2A783D48008239BB /* ai.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4BC2A783D48008239BB /* ai.swift */; };
+		BD43B4C32A783DFE008239BB /* virtual_reality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4C22A783DFE008239BB /* virtual_reality.swift */; };
+		BD43B4C52A783E0A008239BB /* data_science.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4C42A783E0A008239BB /* data_science.swift */; };
+		BD43B4C72A783E15008239BB /* cybersecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4C62A783E15008239BB /* cybersecurity.swift */; };
+		BD43B4C92A783E25008239BB /* chem_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4C82A783E25008239BB /* chem_eng.swift */; };
+		BD43B4CB2A783E30008239BB /* civil_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4CA2A783E30008239BB /* civil_eng.swift */; };
+		BD43B4CD2A783E3E008239BB /* electric_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4CC2A783E3E008239BB /* electric_eng.swift */; };
+		BD43B4CF2A783E49008239BB /* mech_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4CE2A783E49008239BB /* mech_eng.swift */; };
+		BD43B4D12A783E5B008239BB /* algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4D02A783E5B008239BB /* algebra.swift */; };
+		BD43B4D32A783E67008239BB /* geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4D22A783E67008239BB /* geometry.swift */; };
+		BD43B4D52A783E71008239BB /* calculus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4D42A783E71008239BB /* calculus.swift */; };
+		BD43B4D72A783E8F008239BB /* statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43B4D62A783E8F008239BB /* statistics.swift */; };
 		BD54B8822A782619002FB4AE /* Final_Project_Pt__2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54B8812A782619002FB4AE /* Final_Project_Pt__2App.swift */; };
 		BD54B8842A782619002FB4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD54B8832A782619002FB4AE /* ContentView.swift */; };
 		BD54B8862A78261B002FB4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54B8852A78261B002FB4AE /* Assets.xcassets */; };
@@ -14,6 +32,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD43B4AD2A78269B008239BB /* About Us.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About Us.swift"; sourceTree = "<group>"; };
+		BD43B4B22A783BCC008239BB /* biology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = biology.swift; path = science/biology.swift; sourceTree = "<group>"; };
+		BD43B4B42A783C2C008239BB /* chemistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = chemistry.swift; path = science/chemistry.swift; sourceTree = SOURCE_ROOT; };
+		BD43B4B62A783D12008239BB /* physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = physics.swift; path = science/physics.swift; sourceTree = SOURCE_ROOT; };
+		BD43B4B82A783D1E008239BB /* astronomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = astronomy.swift; path = science/astronomy.swift; sourceTree = SOURCE_ROOT; };
+		BD43B4BA2A783D34008239BB /* comp_sci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = comp_sci.swift; path = tech/comp_sci.swift; sourceTree = "<group>"; };
+		BD43B4BC2A783D48008239BB /* ai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ai.swift; path = tech/ai.swift; sourceTree = "<group>"; };
+		BD43B4C22A783DFE008239BB /* virtual_reality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = virtual_reality.swift; path = tech/virtual_reality.swift; sourceTree = "<group>"; };
+		BD43B4C42A783E0A008239BB /* data_science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = data_science.swift; path = tech/data_science.swift; sourceTree = "<group>"; };
+		BD43B4C62A783E15008239BB /* cybersecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = cybersecurity.swift; path = tech/cybersecurity.swift; sourceTree = "<group>"; };
+		BD43B4C82A783E25008239BB /* chem_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = chem_eng.swift; path = engineering/chem_eng.swift; sourceTree = "<group>"; };
+		BD43B4CA2A783E30008239BB /* civil_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = civil_eng.swift; path = engineering/civil_eng.swift; sourceTree = "<group>"; };
+		BD43B4CC2A783E3E008239BB /* electric_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = electric_eng.swift; path = engineering/electric_eng.swift; sourceTree = "<group>"; };
+		BD43B4CE2A783E49008239BB /* mech_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mech_eng.swift; path = engineering/mech_eng.swift; sourceTree = "<group>"; };
+		BD43B4D02A783E5B008239BB /* algebra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = algebra.swift; path = math/algebra.swift; sourceTree = "<group>"; };
+		BD43B4D22A783E67008239BB /* geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = geometry.swift; path = math/geometry.swift; sourceTree = "<group>"; };
+		BD43B4D42A783E71008239BB /* calculus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = calculus.swift; path = math/calculus.swift; sourceTree = "<group>"; };
+		BD43B4D62A783E8F008239BB /* statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = statistics.swift; path = math/statistics.swift; sourceTree = "<group>"; };
 		BD54B87E2A782619002FB4AE /* Final Project Pt. 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project Pt. 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD54B8812A782619002FB4AE /* Final_Project_Pt__2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project_Pt__2App.swift; sourceTree = "<group>"; };
 		BD54B8832A782619002FB4AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +71,7 @@
 		BD54B8752A782619002FB4AE = {
 			isa = PBXGroup;
 			children = (
+				BD43B4B22A783BCC008239BB /* biology.swift */,
 				BD54B8802A782619002FB4AE /* Final Project Pt. 2 */,
 				BD54B87F2A782619002FB4AE /* Products */,
 			);
@@ -53,6 +90,23 @@
 			children = (
 				BD54B8812A782619002FB4AE /* Final_Project_Pt__2App.swift */,
 				BD54B8832A782619002FB4AE /* ContentView.swift */,
+				BD43B4D62A783E8F008239BB /* statistics.swift */,
+				BD43B4D42A783E71008239BB /* calculus.swift */,
+				BD43B4D22A783E67008239BB /* geometry.swift */,
+				BD43B4D02A783E5B008239BB /* algebra.swift */,
+				BD43B4CE2A783E49008239BB /* mech_eng.swift */,
+				BD43B4CC2A783E3E008239BB /* electric_eng.swift */,
+				BD43B4CA2A783E30008239BB /* civil_eng.swift */,
+				BD43B4C82A783E25008239BB /* chem_eng.swift */,
+				BD43B4C62A783E15008239BB /* cybersecurity.swift */,
+				BD43B4C42A783E0A008239BB /* data_science.swift */,
+				BD43B4C22A783DFE008239BB /* virtual_reality.swift */,
+				BD43B4BC2A783D48008239BB /* ai.swift */,
+				BD43B4BA2A783D34008239BB /* comp_sci.swift */,
+				BD43B4B82A783D1E008239BB /* astronomy.swift */,
+				BD43B4B62A783D12008239BB /* physics.swift */,
+				BD43B4B42A783C2C008239BB /* chemistry.swift */,
+				BD43B4AD2A78269B008239BB /* About Us.swift */,
 				BD54B8852A78261B002FB4AE /* Assets.xcassets */,
 				BD54B8872A78261B002FB4AE /* Preview Content */,
 			);
@@ -137,8 +191,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD43B4CB2A783E30008239BB /* civil_eng.swift in Sources */,
 				BD54B8842A782619002FB4AE /* ContentView.swift in Sources */,
+				BD43B4B72A783D12008239BB /* physics.swift in Sources */,
+				BD43B4B32A783BCC008239BB /* biology.swift in Sources */,
+				BD43B4C52A783E0A008239BB /* data_science.swift in Sources */,
+				BD43B4AE2A78269B008239BB /* About Us.swift in Sources */,
+				BD43B4BD2A783D48008239BB /* ai.swift in Sources */,
+				BD43B4B92A783D1E008239BB /* astronomy.swift in Sources */,
+				BD43B4D12A783E5B008239BB /* algebra.swift in Sources */,
+				BD43B4C72A783E15008239BB /* cybersecurity.swift in Sources */,
+				BD43B4C32A783DFE008239BB /* virtual_reality.swift in Sources */,
 				BD54B8822A782619002FB4AE /* Final_Project_Pt__2App.swift in Sources */,
+				BD43B4BB2A783D34008239BB /* comp_sci.swift in Sources */,
+				BD43B4D52A783E71008239BB /* calculus.swift in Sources */,
+				BD43B4B52A783C2C008239BB /* chemistry.swift in Sources */,
+				BD43B4C92A783E25008239BB /* chem_eng.swift in Sources */,
+				BD43B4D32A783E67008239BB /* geometry.swift in Sources */,
+				BD43B4CD2A783E3E008239BB /* electric_eng.swift in Sources */,
+				BD43B4D72A783E8F008239BB /* statistics.swift in Sources */,
+				BD43B4CF2A783E49008239BB /* mech_eng.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
