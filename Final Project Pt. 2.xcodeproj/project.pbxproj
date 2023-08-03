@@ -81,8 +81,11 @@
 		BDA8363B2A7ACB11006DCF30 /* astro_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363A2A7ACB11006DCF30 /* astro_creations.swift */; };
 		BDA8363D2A7ACB25006DCF30 /* astro_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363C2A7ACB25006DCF30 /* astro_female.swift */; };
 		BDA8363F2A7ACB47006DCF30 /* astro_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363E2A7ACB47006DCF30 /* astro_bipoc.swift */; };
+		BDB35E062A7BFF3F00D58ACA /* geo_articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB35E052A7BFF3F00D58ACA /* geo_articles.swift */; };
+		BDB35E082A7C01B500D58ACA /* electrical_articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB35E072A7C01B500D58ACA /* electrical_articles.swift */; };
 		BDCBD4D82A7955360027F623 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBD4D72A7955360027F623 /* NewsItem.swift */; };
 		BDD48A642A79857A00C9EACE /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD48A632A79857A00C9EACE /* testView.swift */; };
+		BDE433682A7BF3E400B64C4E /* cs_articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE433672A7BF3E400B64C4E /* cs_articles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,8 +164,11 @@
 		BDA8363A2A7ACB11006DCF30 /* astro_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_creations.swift; sourceTree = "<group>"; };
 		BDA8363C2A7ACB25006DCF30 /* astro_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_female.swift; sourceTree = "<group>"; };
 		BDA8363E2A7ACB47006DCF30 /* astro_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_bipoc.swift; sourceTree = "<group>"; };
+		BDB35E052A7BFF3F00D58ACA /* geo_articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_articles.swift; sourceTree = "<group>"; };
+		BDB35E072A7C01B500D58ACA /* electrical_articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electrical_articles.swift; sourceTree = "<group>"; };
 		BDCBD4D72A7955360027F623 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 		BDD48A632A79857A00C9EACE /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		BDE433672A7BF3E400B64C4E /* cs_articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_articles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,7 @@
 				BD7E0DEF2A7ACCE5001C6187 /* calc_creations.swift */,
 				BD43B4D22A783E67008239BB /* geometry.swift */,
 				BD7E0DF92A7ACD61001C6187 /* geo_bipoc.swift */,
+				BDB35E052A7BFF3F00D58ACA /* geo_articles.swift */,
 				BD7E0DF72A7ACD52001C6187 /* geo_female.swift */,
 				BD7E0DF52A7ACD45001C6187 /* geo_creations.swift */,
 				BD43B4D02A783E5B008239BB /* algebra.swift */,
@@ -223,6 +230,7 @@
 				BD7E0E032A7ACE0E001C6187 /* mech_female.swift */,
 				BD7E0E012A7ACDFE001C6187 /* mech_creations.swift */,
 				BD43B4CC2A783E3E008239BB /* electric_eng.swift */,
+				BDB35E072A7C01B500D58ACA /* electrical_articles.swift */,
 				BD7E0E0B2A7ACE79001C6187 /* elec_bipoc.swift */,
 				BD7E0E092A7ACE65001C6187 /* elec_female.swift */,
 				BD7E0E072A7ACE43001C6187 /* elec_creations.swift */,
@@ -252,6 +260,7 @@
 				BD7E0E2B2A7AD07C001C6187 /* ai_creations.swift */,
 				BD43B4BA2A783D34008239BB /* comp_sci.swift */,
 				BD7E0E312A7AD0AF001C6187 /* cs_creations.swift */,
+				BDE433672A7BF3E400B64C4E /* cs_articles.swift */,
 				BD7E0E332A7AD0CA001C6187 /* cs_female.swift */,
 				BD7E0E352A7AD0D6001C6187 /* cs_bipoc.swift */,
 				BD43B4B82A783D1E008239BB /* astronomy.swift */,
@@ -355,7 +364,9 @@
 			files = (
 				BD43B4CB2A783E30008239BB /* civil_eng.swift in Sources */,
 				BD7E0DEC2A7ACC4C001C6187 /* stats_female.swift in Sources */,
+				BDB35E062A7BFF3F00D58ACA /* geo_articles.swift in Sources */,
 				BD54B8842A782619002FB4AE /* ContentView.swift in Sources */,
+				BDB35E082A7C01B500D58ACA /* electrical_articles.swift in Sources */,
 				BD43B4B72A783D12008239BB /* physics.swift in Sources */,
 				BD43B4B32A783BCC008239BB /* biology.swift in Sources */,
 				BDA836252A7AA6E2006DCF30 /* all_articles.swift in Sources */,
@@ -396,6 +407,7 @@
 				BD7E0DFE2A7ACDC2001C6187 /* alg_female.swift in Sources */,
 				BD43B4B52A783C2C008239BB /* chemistry.swift in Sources */,
 				BD7E0E182A7ACF0D001C6187 /* chemeng_bipoc.swift in Sources */,
+				BDE433682A7BF3E400B64C4E /* cs_articles.swift in Sources */,
 				BD7E0E222A7ACFBB001C6187 /* data_female.swift in Sources */,
 				BD7E0E242A7ACFC0001C6187 /* data_bipoc.swift in Sources */,
 				BD7E0E102A7ACEC8001C6187 /* civil_female.swift in Sources */,

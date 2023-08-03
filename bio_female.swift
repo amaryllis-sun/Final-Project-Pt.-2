@@ -13,8 +13,8 @@ struct bio_female: View
     @GestureState private var dragOffset: CGFloat = 0
     let newsItems = [
         NewsItem(image: Image("covid"), title: "Kati Kariko Helped Shield \nthe World From the \nCoronavirus", description: "Description 1"),
-        NewsItem(image: Image("bee flower"), title: "New Research Reveals How \nHoneybees Make Fast,\n Accurate Decisions", description: "Description 2"),
-        NewsItem(image: Image("colorful"), title: "Organoids Revolutionize \nResearch on Respiratory\n Infections", description: "Description 3")
+        NewsItem(image: Image("newdoudna"), title: "Doudna Talks Cost, Access \nIssues Looming Over First \nCRISPR Therapy", description: "Description 2"),
+        NewsItem(image: Image("snake"), title: "Biologists Discover \nUnprecedented Resistance \nto Snake Venom \nin Caecilians", description: "Description 3")
         
     ]
     
@@ -43,7 +43,7 @@ var body: some View {
                             newsItems[index].image
                                 .border(Color.white, width: 2)
                                 .opacity(currentIndex == index ? 1.0 : 0.5)
-                                .scaleEffect(currentIndex == index ? 0.8 : 0.6)
+                                .scaleEffect(currentIndex == index ? 0.8 : 0.5)
                                 .offset(x: CGFloat(index - currentIndex) * 300 + dragOffset, y: 0)
             
                         

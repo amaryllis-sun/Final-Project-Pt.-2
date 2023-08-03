@@ -102,6 +102,17 @@ struct all_articles: View {
                                        .underline()
                                        .font(.title)
                                } // link 6
+                               Text("-----------------------------------------------")
+                                   .foregroundColor(.gray)
+                               
+                               
+                               Link(destination: URL(string: "https://www.statnews.com/2023/05/05/crispr-jennifer-doudna-future-goals/")!) {
+                                   Text("7. Doudna talks cost, access issues looming over first CRISPR therapy")
+                                       .foregroundColor(.black)
+                                       .font(.custom("Georgia", size: 25))
+                                       .underline()
+                                       .font(.title)
+                               } // link 7
                                
                                Text("-----------------------------------------------")
                               .foregroundColor(.gray)
