@@ -22,17 +22,18 @@ struct cs_creations: View
                 NavigationStack {
                     VStack {
                         ZStack {
-                            Image("yellow_gradient")
+                            Image("blue_gradient")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fill)
-                                .ignoresSafeArea()
+                //                  Color(red: 0.34, green: 0.51, blue: 0.34)
+                                    .ignoresSafeArea()
                             
                             
                             ForEach(0..<newsItems.count, id: \.self){index in
                                 
                                 Text(newsItems[currentIndex].title)
                                     .fontWeight(.heavy)
-                                    .foregroundColor(Color(red: 0.33, green: 0.33, blue: 0.33))
+                                    .foregroundColor(Color(red: 0.24, green: 0.42, blue: 0.66))
                                     .font(.custom("Georgia", size: 25))
                                     .padding(.top, -270.0)
                                 

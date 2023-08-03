@@ -40,7 +40,7 @@ struct comp_sci: View {
                 VStack(spacing: 30) {
                     
                     NavigationLink(destination: cs_creations()) {
-                        Text("New Creation")
+                        Text("New Creations")
                             .foregroundColor(.black)
                             .font(.custom("Georgia", size: 25))
                             .padding()
