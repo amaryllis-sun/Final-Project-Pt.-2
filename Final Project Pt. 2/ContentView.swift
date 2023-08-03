@@ -13,13 +13,17 @@ struct ContentView: View {
         
         NavigationStack {
             ZStack{
-                Color(red:0.3411764705882353, green: 0.5058823529411764, blue:0.3411764705882353).ignoresSafeArea()
+                Image("pink_gradient")
+                    .resizable(resizingMode: .stretch)
+                    .ignoresSafeArea()
+//                Color(red:0.3411764705882353, green: 0.5058823529411764, blue:0.3411764705882353)
+                   
                 VStack(spacing: 20) {
                     Text("STEMtelligence")
                         //.font(.title)
                         .font(.custom("Georgia", size: 45))
                         .fontWeight(.bold)
-                        .foregroundColor(Color(red: 0.8117647058823529, green: 0.8117647058823529, blue: 0.9176470588235294))
+                        .foregroundColor(Color(red: 0.43, green: 0.34, blue: 0.5))
                         .padding(.top, 20.0)
             
                     Spacer()
@@ -28,12 +32,9 @@ struct ContentView: View {
                     Menu {
                         NavigationLink {
                             biology()
-                        
                         }
-                        
                     label: {
                             Label("Biology", systemImage: "rectangle.stack.badge.plus")
-
                         }
                     .accentColor(.black)
                         NavigationLink {
@@ -52,13 +53,14 @@ struct ContentView: View {
                             Label("Astronomy", systemImage: "rectangle.stack.badge.person.crop")
                         }
                     } label: {
-                        Label("Science", systemImage: "chevron.down")
+                        Label("Science 🧬", systemImage: "chevron.down")
                             .tint(.black)
-                            .font(.custom("Georgia", size: 20))
+                            .font(.custom("Georgia", size: 25))
                             .padding()
                             .background(Rectangle() .foregroundColor(Color(red: 0.87, green: 0.73, blue: 0.53))
                             .cornerRadius(15)
                             .shadow(radius: 15)
+                            .border((Color(red: 0.43, green: 0.34, blue: 0.5)), width: 2.5)
                             )
                     }
                     
@@ -93,13 +95,14 @@ struct ContentView: View {
                         }
                         
                     } label: {
-                        Label("Technology", systemImage: "chevron.down")
+                        Label("Technology 📱", systemImage: "chevron.down")
                             .tint(.black)
-                            .font(.custom("Georgia", size: 20))
+                            .font(.custom("Georgia", size: 25))
                             .padding()
                             .background(Rectangle() .foregroundColor(Color(red: 0.87, green: 0.73, blue: 0.53))
                             .cornerRadius(15)
                             .shadow(radius: 15)
+                            .border((Color(red: 0.43, green: 0.34, blue: 0.5)), width: 2.5)
                             )
                     }
                     //engineering
@@ -129,13 +132,14 @@ struct ContentView: View {
                         
                         
                     } label: {
-                        Label("Engineering", systemImage: "chevron.down")
+                        Label("Engineering 🛠️", systemImage: "chevron.down")
                             .tint(.black)
-                            .font(.custom("Georgia", size: 20))
+                            .font(.custom("Georgia", size: 25))
                             .padding()
                             .background(Rectangle() .foregroundColor(Color(red: 0.87, green: 0.73, blue: 0.53))
                             .cornerRadius(15)
                             .shadow(radius: 15)
+                            .border((Color(red: 0.43, green: 0.34, blue: 0.5)), width: 2.5)
                             )
                     }
                     
@@ -165,13 +169,14 @@ struct ContentView: View {
                         }
                         
                     } label: {
-                        Label("Math", systemImage: "chevron.down")
+                        Label("Math ➗", systemImage: "chevron.down")
                             .tint(.black)
-                            .font(.custom("Georgia", size: 20))
+                            .font(.custom("Georgia", size: 25))
                             .padding()
                             .background(Rectangle() .foregroundColor(Color(red: 0.87, green: 0.73, blue: 0.53))
                             .cornerRadius(15)
                             .shadow(radius: 15)
+                            .border((Color(red: 0.43, green: 0.34, blue: 0.5)), width: 2.5)
                             )
                     }
                     
@@ -181,7 +186,7 @@ struct ContentView: View {
                         NavigationLink(destination: about_us_page()) {
                             Text("About Us")
                                 .tint(.white)
-                                .font(.custom("Georgia", size: 20))
+                                .font(.custom("Georgia", size: 25))
                                 .padding()
                                 .background(Rectangle() .foregroundColor(Color(red: 0.86, green: 0.42, blue: 0.47))
                                 .cornerRadius(15)
@@ -195,8 +200,10 @@ struct ContentView: View {
                         
                         
                         Text("Made with love by Anya, Angela, Rebecca, & Amaryllis ")
+                          //  .fontWeight(.medium)
                             .multilineTextAlignment(.center)
-                            .foregroundColor(.white)
+                            .foregroundColor(Color(red: 0.43, green: 0.34, blue: 0.5))
+                        
                             .font(.custom("Georgia", size: 20))
                     }
                 }

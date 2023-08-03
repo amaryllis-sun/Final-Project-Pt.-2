@@ -30,6 +30,57 @@
 		BD54B8862A78261B002FB4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54B8852A78261B002FB4AE /* Assets.xcassets */; };
 		BD54B8892A78261B002FB4AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54B8882A78261B002FB4AE /* Preview Assets.xcassets */; };
 		BD6140DC2A79961B00727550 /* science.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6140DB2A79961B00727550 /* science.swift */; };
+		BD7E0DEA2A7ACC32001C6187 /* stats_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DE92A7ACC32001C6187 /* stats_creations.swift */; };
+		BD7E0DEC2A7ACC4C001C6187 /* stats_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DEB2A7ACC4C001C6187 /* stats_female.swift */; };
+		BD7E0DEE2A7ACC59001C6187 /* stats_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DED2A7ACC59001C6187 /* stats_bipoc.swift */; };
+		BD7E0DF02A7ACCE5001C6187 /* calc_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DEF2A7ACCE5001C6187 /* calc_creations.swift */; };
+		BD7E0DF22A7ACCF8001C6187 /* calc_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DF12A7ACCF8001C6187 /* calc_female.swift */; };
+		BD7E0DF42A7ACD04001C6187 /* calc_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DF32A7ACD04001C6187 /* calc_bipoc.swift */; };
+		BD7E0DF62A7ACD45001C6187 /* geo_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DF52A7ACD45001C6187 /* geo_creations.swift */; };
+		BD7E0DF82A7ACD52001C6187 /* geo_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DF72A7ACD52001C6187 /* geo_female.swift */; };
+		BD7E0DFA2A7ACD61001C6187 /* geo_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DF92A7ACD61001C6187 /* geo_bipoc.swift */; };
+		BD7E0DFC2A7ACDB2001C6187 /* alg_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DFB2A7ACDB2001C6187 /* alg_creations.swift */; };
+		BD7E0DFE2A7ACDC2001C6187 /* alg_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DFD2A7ACDC2001C6187 /* alg_female.swift */; };
+		BD7E0E002A7ACDE6001C6187 /* alg_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0DFF2A7ACDE6001C6187 /* alg_bipoc.swift */; };
+		BD7E0E022A7ACDFE001C6187 /* mech_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E012A7ACDFE001C6187 /* mech_creations.swift */; };
+		BD7E0E042A7ACE0E001C6187 /* mech_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E032A7ACE0E001C6187 /* mech_female.swift */; };
+		BD7E0E062A7ACE1E001C6187 /* mech_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E052A7ACE1E001C6187 /* mech_bipoc.swift */; };
+		BD7E0E082A7ACE43001C6187 /* elec_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E072A7ACE43001C6187 /* elec_creations.swift */; };
+		BD7E0E0A2A7ACE65001C6187 /* elec_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E092A7ACE65001C6187 /* elec_female.swift */; };
+		BD7E0E0C2A7ACE79001C6187 /* elec_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E0B2A7ACE79001C6187 /* elec_bipoc.swift */; };
+		BD7E0E0E2A7ACEBB001C6187 /* civil_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E0D2A7ACEBB001C6187 /* civil_creations.swift */; };
+		BD7E0E102A7ACEC8001C6187 /* civil_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E0F2A7ACEC8001C6187 /* civil_female.swift */; };
+		BD7E0E122A7ACED5001C6187 /* civil_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E112A7ACED5001C6187 /* civil_bipoc.swift */; };
+		BD7E0E142A7ACEEB001C6187 /* chemeng_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E132A7ACEEB001C6187 /* chemeng_creations.swift */; };
+		BD7E0E162A7ACEFF001C6187 /* chemeng_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E152A7ACEFF001C6187 /* chemeng_female.swift */; };
+		BD7E0E182A7ACF0D001C6187 /* chemeng_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E172A7ACF0D001C6187 /* chemeng_bipoc.swift */; };
+		BD7E0E1A2A7ACF86001C6187 /* cyber_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E192A7ACF86001C6187 /* cyber_creations.swift */; };
+		BD7E0E1C2A7ACF98001C6187 /* cyber_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E1B2A7ACF98001C6187 /* cyber_female.swift */; };
+		BD7E0E1E2A7ACFA3001C6187 /* cyber_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E1D2A7ACFA3001C6187 /* cyber_bipoc.swift */; };
+		BD7E0E202A7ACFB5001C6187 /* data_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E1F2A7ACFB5001C6187 /* data_creations.swift */; };
+		BD7E0E222A7ACFBB001C6187 /* data_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E212A7ACFBB001C6187 /* data_female.swift */; };
+		BD7E0E242A7ACFC0001C6187 /* data_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E232A7ACFC0001C6187 /* data_bipoc.swift */; };
+		BD7E0E262A7AD00B001C6187 /* vr_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E252A7AD00B001C6187 /* vr_creations.swift */; };
+		BD7E0E282A7AD012001C6187 /* vr_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E272A7AD012001C6187 /* vr_female.swift */; };
+		BD7E0E2A2A7AD016001C6187 /* vr_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E292A7AD016001C6187 /* vr_bipoc.swift */; };
+		BD7E0E2C2A7AD07C001C6187 /* ai_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E2B2A7AD07C001C6187 /* ai_creations.swift */; };
+		BD7E0E2E2A7AD092001C6187 /* ai_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E2D2A7AD092001C6187 /* ai_female.swift */; };
+		BD7E0E302A7AD098001C6187 /* ai_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E2F2A7AD098001C6187 /* ai_bipoc.swift */; };
+		BD7E0E322A7AD0AF001C6187 /* cs_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E312A7AD0AF001C6187 /* cs_creations.swift */; };
+		BD7E0E342A7AD0CA001C6187 /* cs_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E332A7AD0CA001C6187 /* cs_female.swift */; };
+		BD7E0E362A7AD0D6001C6187 /* cs_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E0E352A7AD0D6001C6187 /* cs_bipoc.swift */; };
+		BDA836252A7AA6E2006DCF30 /* all_articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836242A7AA6E2006DCF30 /* all_articles.swift */; };
+		BDA8362B2A7AC90F006DCF30 /* bio_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8362A2A7AC90F006DCF30 /* bio_female.swift */; };
+		BDA8362D2A7AC922006DCF30 /* bio_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8362C2A7AC922006DCF30 /* bio_bipoc.swift */; };
+		BDA8362F2A7AC969006DCF30 /* chem_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8362E2A7AC969006DCF30 /* chem_creations.swift */; };
+		BDA836312A7AC987006DCF30 /* chem_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836302A7AC987006DCF30 /* chem_female.swift */; };
+		BDA836332A7AC99D006DCF30 /* chem_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836322A7AC99D006DCF30 /* chem_bipoc.swift */; };
+		BDA836352A7AC9ED006DCF30 /* physics_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836342A7AC9ED006DCF30 /* physics_creations.swift */; };
+		BDA836372A7ACA23006DCF30 /* physics_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836362A7ACA23006DCF30 /* physics_female.swift */; };
+		BDA836392A7ACA6E006DCF30 /* physics_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA836382A7ACA6E006DCF30 /* physics_bipoc.swift */; };
+		BDA8363B2A7ACB11006DCF30 /* astro_creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363A2A7ACB11006DCF30 /* astro_creations.swift */; };
+		BDA8363D2A7ACB25006DCF30 /* astro_female.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363C2A7ACB25006DCF30 /* astro_female.swift */; };
+		BDA8363F2A7ACB47006DCF30 /* astro_bipoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8363E2A7ACB47006DCF30 /* astro_bipoc.swift */; };
 		BDCBD4D82A7955360027F623 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCBD4D72A7955360027F623 /* NewsItem.swift */; };
 		BDD48A642A79857A00C9EACE /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD48A632A79857A00C9EACE /* testView.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +110,57 @@
 		BD54B8852A78261B002FB4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD54B8882A78261B002FB4AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD6140DB2A79961B00727550 /* science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = science.swift; sourceTree = "<group>"; };
+		BD7E0DE92A7ACC32001C6187 /* stats_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats_creations.swift; sourceTree = "<group>"; };
+		BD7E0DEB2A7ACC4C001C6187 /* stats_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats_female.swift; sourceTree = "<group>"; };
+		BD7E0DED2A7ACC59001C6187 /* stats_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0DEF2A7ACCE5001C6187 /* calc_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calc_creations.swift; sourceTree = "<group>"; };
+		BD7E0DF12A7ACCF8001C6187 /* calc_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calc_female.swift; sourceTree = "<group>"; };
+		BD7E0DF32A7ACD04001C6187 /* calc_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calc_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0DF52A7ACD45001C6187 /* geo_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_creations.swift; sourceTree = "<group>"; };
+		BD7E0DF72A7ACD52001C6187 /* geo_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_female.swift; sourceTree = "<group>"; };
+		BD7E0DF92A7ACD61001C6187 /* geo_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0DFB2A7ACDB2001C6187 /* alg_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alg_creations.swift; sourceTree = "<group>"; };
+		BD7E0DFD2A7ACDC2001C6187 /* alg_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alg_female.swift; sourceTree = "<group>"; };
+		BD7E0DFF2A7ACDE6001C6187 /* alg_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alg_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E012A7ACDFE001C6187 /* mech_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mech_creations.swift; sourceTree = "<group>"; };
+		BD7E0E032A7ACE0E001C6187 /* mech_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mech_female.swift; sourceTree = "<group>"; };
+		BD7E0E052A7ACE1E001C6187 /* mech_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mech_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E072A7ACE43001C6187 /* elec_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elec_creations.swift; sourceTree = "<group>"; };
+		BD7E0E092A7ACE65001C6187 /* elec_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elec_female.swift; sourceTree = "<group>"; };
+		BD7E0E0B2A7ACE79001C6187 /* elec_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elec_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E0D2A7ACEBB001C6187 /* civil_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = civil_creations.swift; sourceTree = "<group>"; };
+		BD7E0E0F2A7ACEC8001C6187 /* civil_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = civil_female.swift; sourceTree = "<group>"; };
+		BD7E0E112A7ACED5001C6187 /* civil_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = civil_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E132A7ACEEB001C6187 /* chemeng_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemeng_creations.swift; sourceTree = "<group>"; };
+		BD7E0E152A7ACEFF001C6187 /* chemeng_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemeng_female.swift; sourceTree = "<group>"; };
+		BD7E0E172A7ACF0D001C6187 /* chemeng_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemeng_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E192A7ACF86001C6187 /* cyber_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyber_creations.swift; sourceTree = "<group>"; };
+		BD7E0E1B2A7ACF98001C6187 /* cyber_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyber_female.swift; sourceTree = "<group>"; };
+		BD7E0E1D2A7ACFA3001C6187 /* cyber_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyber_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E1F2A7ACFB5001C6187 /* data_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_creations.swift; sourceTree = "<group>"; };
+		BD7E0E212A7ACFBB001C6187 /* data_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_female.swift; sourceTree = "<group>"; };
+		BD7E0E232A7ACFC0001C6187 /* data_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E252A7AD00B001C6187 /* vr_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vr_creations.swift; sourceTree = "<group>"; };
+		BD7E0E272A7AD012001C6187 /* vr_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vr_female.swift; sourceTree = "<group>"; };
+		BD7E0E292A7AD016001C6187 /* vr_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vr_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E2B2A7AD07C001C6187 /* ai_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_creations.swift; sourceTree = "<group>"; };
+		BD7E0E2D2A7AD092001C6187 /* ai_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_female.swift; sourceTree = "<group>"; };
+		BD7E0E2F2A7AD098001C6187 /* ai_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_bipoc.swift; sourceTree = "<group>"; };
+		BD7E0E312A7AD0AF001C6187 /* cs_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_creations.swift; sourceTree = "<group>"; };
+		BD7E0E332A7AD0CA001C6187 /* cs_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_female.swift; sourceTree = "<group>"; };
+		BD7E0E352A7AD0D6001C6187 /* cs_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs_bipoc.swift; sourceTree = "<group>"; };
+		BDA836242A7AA6E2006DCF30 /* all_articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = all_articles.swift; sourceTree = "<group>"; };
+		BDA8362A2A7AC90F006DCF30 /* bio_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bio_female.swift; sourceTree = "<group>"; };
+		BDA8362C2A7AC922006DCF30 /* bio_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bio_bipoc.swift; sourceTree = "<group>"; };
+		BDA8362E2A7AC969006DCF30 /* chem_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_creations.swift; sourceTree = "<group>"; };
+		BDA836302A7AC987006DCF30 /* chem_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_female.swift; sourceTree = "<group>"; };
+		BDA836322A7AC99D006DCF30 /* chem_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_bipoc.swift; sourceTree = "<group>"; };
+		BDA836342A7AC9ED006DCF30 /* physics_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physics_creations.swift; sourceTree = "<group>"; };
+		BDA836362A7ACA23006DCF30 /* physics_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physics_female.swift; sourceTree = "<group>"; };
+		BDA836382A7ACA6E006DCF30 /* physics_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = physics_bipoc.swift; sourceTree = "<group>"; };
+		BDA8363A2A7ACB11006DCF30 /* astro_creations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_creations.swift; sourceTree = "<group>"; };
+		BDA8363C2A7ACB25006DCF30 /* astro_female.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_female.swift; sourceTree = "<group>"; };
+		BDA8363E2A7ACB47006DCF30 /* astro_bipoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astro_bipoc.swift; sourceTree = "<group>"; };
 		BDCBD4D72A7955360027F623 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 		BDD48A632A79857A00C9EACE /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +179,11 @@
 		BD54B8752A782619002FB4AE = {
 			isa = PBXGroup;
 			children = (
+				BDA836242A7AA6E2006DCF30 /* all_articles.swift */,
 				BDCBD4D72A7955360027F623 /* NewsItem.swift */,
 				BD43B4B22A783BCC008239BB /* biology.swift */,
+				BDA8362C2A7AC922006DCF30 /* bio_bipoc.swift */,
+				BDA8362A2A7AC90F006DCF30 /* bio_female.swift */,
 				BD54B8802A782619002FB4AE /* Final Project Pt. 2 */,
 				BD54B87F2A782619002FB4AE /* Products */,
 			);
@@ -98,21 +203,69 @@
 				BD54B8812A782619002FB4AE /* Final_Project_Pt__2App.swift */,
 				BD54B8832A782619002FB4AE /* ContentView.swift */,
 				BD43B4D62A783E8F008239BB /* statistics.swift */,
+				BD7E0DED2A7ACC59001C6187 /* stats_bipoc.swift */,
+				BD7E0DEB2A7ACC4C001C6187 /* stats_female.swift */,
+				BD7E0DE92A7ACC32001C6187 /* stats_creations.swift */,
 				BD43B4D42A783E71008239BB /* calculus.swift */,
+				BD7E0DF32A7ACD04001C6187 /* calc_bipoc.swift */,
+				BD7E0DF12A7ACCF8001C6187 /* calc_female.swift */,
+				BD7E0DEF2A7ACCE5001C6187 /* calc_creations.swift */,
 				BD43B4D22A783E67008239BB /* geometry.swift */,
+				BD7E0DF92A7ACD61001C6187 /* geo_bipoc.swift */,
+				BD7E0DF72A7ACD52001C6187 /* geo_female.swift */,
+				BD7E0DF52A7ACD45001C6187 /* geo_creations.swift */,
 				BD43B4D02A783E5B008239BB /* algebra.swift */,
+				BD7E0DFF2A7ACDE6001C6187 /* alg_bipoc.swift */,
+				BD7E0DFD2A7ACDC2001C6187 /* alg_female.swift */,
+				BD7E0DFB2A7ACDB2001C6187 /* alg_creations.swift */,
 				BD43B4CE2A783E49008239BB /* mech_eng.swift */,
+				BD7E0E052A7ACE1E001C6187 /* mech_bipoc.swift */,
+				BD7E0E032A7ACE0E001C6187 /* mech_female.swift */,
+				BD7E0E012A7ACDFE001C6187 /* mech_creations.swift */,
 				BD43B4CC2A783E3E008239BB /* electric_eng.swift */,
+				BD7E0E0B2A7ACE79001C6187 /* elec_bipoc.swift */,
+				BD7E0E092A7ACE65001C6187 /* elec_female.swift */,
+				BD7E0E072A7ACE43001C6187 /* elec_creations.swift */,
 				BD43B4CA2A783E30008239BB /* civil_eng.swift */,
+				BD7E0E112A7ACED5001C6187 /* civil_bipoc.swift */,
+				BD7E0E0F2A7ACEC8001C6187 /* civil_female.swift */,
+				BD7E0E0D2A7ACEBB001C6187 /* civil_creations.swift */,
 				BD43B4C82A783E25008239BB /* chem_eng.swift */,
+				BD7E0E172A7ACF0D001C6187 /* chemeng_bipoc.swift */,
+				BD7E0E152A7ACEFF001C6187 /* chemeng_female.swift */,
+				BD7E0E132A7ACEEB001C6187 /* chemeng_creations.swift */,
 				BD43B4C62A783E15008239BB /* cybersecurity.swift */,
+				BD7E0E1D2A7ACFA3001C6187 /* cyber_bipoc.swift */,
+				BD7E0E1B2A7ACF98001C6187 /* cyber_female.swift */,
+				BD7E0E192A7ACF86001C6187 /* cyber_creations.swift */,
 				BD43B4C42A783E0A008239BB /* data_science.swift */,
+				BD7E0E1F2A7ACFB5001C6187 /* data_creations.swift */,
+				BD7E0E212A7ACFBB001C6187 /* data_female.swift */,
+				BD7E0E232A7ACFC0001C6187 /* data_bipoc.swift */,
 				BD43B4C22A783DFE008239BB /* virtual_reality.swift */,
+				BD7E0E252A7AD00B001C6187 /* vr_creations.swift */,
+				BD7E0E272A7AD012001C6187 /* vr_female.swift */,
+				BD7E0E292A7AD016001C6187 /* vr_bipoc.swift */,
 				BD43B4BC2A783D48008239BB /* ai.swift */,
+				BD7E0E2D2A7AD092001C6187 /* ai_female.swift */,
+				BD7E0E2F2A7AD098001C6187 /* ai_bipoc.swift */,
+				BD7E0E2B2A7AD07C001C6187 /* ai_creations.swift */,
 				BD43B4BA2A783D34008239BB /* comp_sci.swift */,
+				BD7E0E312A7AD0AF001C6187 /* cs_creations.swift */,
+				BD7E0E332A7AD0CA001C6187 /* cs_female.swift */,
+				BD7E0E352A7AD0D6001C6187 /* cs_bipoc.swift */,
 				BD43B4B82A783D1E008239BB /* astronomy.swift */,
+				BDA8363E2A7ACB47006DCF30 /* astro_bipoc.swift */,
+				BDA8363C2A7ACB25006DCF30 /* astro_female.swift */,
+				BDA8363A2A7ACB11006DCF30 /* astro_creations.swift */,
 				BD43B4B62A783D12008239BB /* physics.swift */,
+				BDA836382A7ACA6E006DCF30 /* physics_bipoc.swift */,
+				BDA836362A7ACA23006DCF30 /* physics_female.swift */,
+				BDA836342A7AC9ED006DCF30 /* physics_creations.swift */,
 				BD43B4B42A783C2C008239BB /* chemistry.swift */,
+				BDA836322A7AC99D006DCF30 /* chem_bipoc.swift */,
+				BDA836302A7AC987006DCF30 /* chem_female.swift */,
+				BDA8362E2A7AC969006DCF30 /* chem_creations.swift */,
 				BD43B4AD2A78269B008239BB /* About Us.swift */,
 				BD6140DB2A79961B00727550 /* science.swift */,
 				BDD48A632A79857A00C9EACE /* testView.swift */,
@@ -201,28 +354,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD43B4CB2A783E30008239BB /* civil_eng.swift in Sources */,
+				BD7E0DEC2A7ACC4C001C6187 /* stats_female.swift in Sources */,
 				BD54B8842A782619002FB4AE /* ContentView.swift in Sources */,
 				BD43B4B72A783D12008239BB /* physics.swift in Sources */,
 				BD43B4B32A783BCC008239BB /* biology.swift in Sources */,
+				BDA836252A7AA6E2006DCF30 /* all_articles.swift in Sources */,
 				BD43B4C52A783E0A008239BB /* data_science.swift in Sources */,
+				BD7E0E2A2A7AD016001C6187 /* vr_bipoc.swift in Sources */,
 				BD43B4AE2A78269B008239BB /* About Us.swift in Sources */,
+				BD7E0E262A7AD00B001C6187 /* vr_creations.swift in Sources */,
 				BDD48A642A79857A00C9EACE /* testView.swift in Sources */,
 				BD43B4BD2A783D48008239BB /* ai.swift in Sources */,
+				BD7E0E322A7AD0AF001C6187 /* cs_creations.swift in Sources */,
+				BDA8363F2A7ACB47006DCF30 /* astro_bipoc.swift in Sources */,
+				BD7E0DEA2A7ACC32001C6187 /* stats_creations.swift in Sources */,
 				BD43B4B92A783D1E008239BB /* astronomy.swift in Sources */,
+				BD7E0E1C2A7ACF98001C6187 /* cyber_female.swift in Sources */,
+				BD7E0DFC2A7ACDB2001C6187 /* alg_creations.swift in Sources */,
 				BD43B4D12A783E5B008239BB /* algebra.swift in Sources */,
+				BD7E0DF62A7ACD45001C6187 /* geo_creations.swift in Sources */,
+				BDA836392A7ACA6E006DCF30 /* physics_bipoc.swift in Sources */,
+				BD7E0DEE2A7ACC59001C6187 /* stats_bipoc.swift in Sources */,
+				BD7E0DFA2A7ACD61001C6187 /* geo_bipoc.swift in Sources */,
 				BD43B4C72A783E15008239BB /* cybersecurity.swift in Sources */,
+				BD7E0E1A2A7ACF86001C6187 /* cyber_creations.swift in Sources */,
+				BDA836312A7AC987006DCF30 /* chem_female.swift in Sources */,
+				BDA8363B2A7ACB11006DCF30 /* astro_creations.swift in Sources */,
 				BD43B4C32A783DFE008239BB /* virtual_reality.swift in Sources */,
 				BD54B8822A782619002FB4AE /* Final_Project_Pt__2App.swift in Sources */,
+				BD7E0E062A7ACE1E001C6187 /* mech_bipoc.swift in Sources */,
 				BD43B4BB2A783D34008239BB /* comp_sci.swift in Sources */,
+				BD7E0DF42A7ACD04001C6187 /* calc_bipoc.swift in Sources */,
+				BD7E0E002A7ACDE6001C6187 /* alg_bipoc.swift in Sources */,
+				BDA836352A7AC9ED006DCF30 /* physics_creations.swift in Sources */,
+				BD7E0E042A7ACE0E001C6187 /* mech_female.swift in Sources */,
+				BD7E0E0E2A7ACEBB001C6187 /* civil_creations.swift in Sources */,
+				BDA8362F2A7AC969006DCF30 /* chem_creations.swift in Sources */,
 				BD43B4D52A783E71008239BB /* calculus.swift in Sources */,
+				BD7E0DF02A7ACCE5001C6187 /* calc_creations.swift in Sources */,
+				BDA8363D2A7ACB25006DCF30 /* astro_female.swift in Sources */,
+				BD7E0DFE2A7ACDC2001C6187 /* alg_female.swift in Sources */,
 				BD43B4B52A783C2C008239BB /* chemistry.swift in Sources */,
+				BD7E0E182A7ACF0D001C6187 /* chemeng_bipoc.swift in Sources */,
+				BD7E0E222A7ACFBB001C6187 /* data_female.swift in Sources */,
+				BD7E0E242A7ACFC0001C6187 /* data_bipoc.swift in Sources */,
+				BD7E0E102A7ACEC8001C6187 /* civil_female.swift in Sources */,
+				BD7E0E142A7ACEEB001C6187 /* chemeng_creations.swift in Sources */,
+				BD7E0E2E2A7AD092001C6187 /* ai_female.swift in Sources */,
+				BD7E0E302A7AD098001C6187 /* ai_bipoc.swift in Sources */,
+				BD7E0E0C2A7ACE79001C6187 /* elec_bipoc.swift in Sources */,
+				BD7E0E282A7AD012001C6187 /* vr_female.swift in Sources */,
+				BD7E0E362A7AD0D6001C6187 /* cs_bipoc.swift in Sources */,
 				BD43B4C92A783E25008239BB /* chem_eng.swift in Sources */,
+				BDA8362D2A7AC922006DCF30 /* bio_bipoc.swift in Sources */,
+				BD7E0E1E2A7ACFA3001C6187 /* cyber_bipoc.swift in Sources */,
 				BD43B4D32A783E67008239BB /* geometry.swift in Sources */,
+				BD7E0E202A7ACFB5001C6187 /* data_creations.swift in Sources */,
 				BD43B4CD2A783E3E008239BB /* electric_eng.swift in Sources */,
+				BDA836332A7AC99D006DCF30 /* chem_bipoc.swift in Sources */,
 				BDCBD4D82A7955360027F623 /* NewsItem.swift in Sources */,
+				BD7E0E0A2A7ACE65001C6187 /* elec_female.swift in Sources */,
+				BD7E0E2C2A7AD07C001C6187 /* ai_creations.swift in Sources */,
+				BDA836372A7ACA23006DCF30 /* physics_female.swift in Sources */,
+				BD7E0E022A7ACDFE001C6187 /* mech_creations.swift in Sources */,
+				BD7E0E122A7ACED5001C6187 /* civil_bipoc.swift in Sources */,
+				BDA8362B2A7AC90F006DCF30 /* bio_female.swift in Sources */,
+				BD7E0E162A7ACEFF001C6187 /* chemeng_female.swift in Sources */,
+				BD7E0DF82A7ACD52001C6187 /* geo_female.swift in Sources */,
+				BD7E0E082A7ACE43001C6187 /* elec_creations.swift in Sources */,
 				BD43B4D72A783E8F008239BB /* statistics.swift in Sources */,
 				BD43B4CF2A783E49008239BB /* mech_eng.swift in Sources */,
+				BD7E0E342A7AD0CA001C6187 /* cs_female.swift in Sources */,
 				BD6140DC2A79961B00727550 /* science.swift in Sources */,
+				BD7E0DF22A7ACCF8001C6187 /* calc_female.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

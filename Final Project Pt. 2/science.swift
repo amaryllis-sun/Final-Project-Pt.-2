@@ -12,49 +12,65 @@ struct science: View {
         //A property wrapper type that updates a property while the user performs a gesture and resets the property back to its initial state when the gesture ends.
         @GestureState private var dragOffset: CGFloat = 0
         let newsItems = [
-            NewsItem(image: Image("science"), title: "Science", description: "Description 1"),
-            NewsItem(image: Image("math"), title: "Math", description: "Description 2")
+            NewsItem(image: Image("snake"), title: "Biologists Discover \nUnprecedented Resistance \nto Snake Venom \nin Caecilians", description: "Description 1"),
+            NewsItem(image: Image("bee flower"), title: "New Research Reveals How \nHoneybees Make Fast,\n Accurate Decisions", description: "Description 2"),
+            NewsItem(image: Image("colorful"), title: "Organoids Revolutionize \nResearch on Respiratory\n Infections", description: "Description 3")
             
         ]
+        
 
     var body: some View {
         NavigationStack {
             VStack {
                 ZStack {
+                   Image("yellow_gradient")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                            .ignoresSafeArea()
                     
                         
                         ForEach(0..<newsItems.count, id: \.self){index in
                            
-                                Text(newsItems[currentIndex].title)
-                                .font(.title)
-                                .padding(.top, -250.0)
+                            Text(newsItems[currentIndex].title)
+                                .fontWeight(.heavy)
+                                .foregroundColor(.white)
+                                .font(.custom("Georgia", size: 25))
+                                .padding(.top, -270.0)
+                             
+                                .multilineTextAlignment(.center)
                             
                                 
                                 newsItems[index].image
-                                    .cornerRadius(15)
+                                    .border(Color.white, width: 2)
                                     .opacity(currentIndex == index ? 1.0 : 0.5)
-                                    .scaleEffect(currentIndex == index ? 0.7 : 0.8)
+                                    .scaleEffect(currentIndex == index ? 0.65 : 0.6)
                                     .offset(x: CGFloat(index - currentIndex) * 300 + dragOffset, y: 0)
+                
                             
                             //                                    .resizable(resizingMode: .stretch)
                             //                                    .aspectRatio(contentMode: .fit)
                             
                             //    Text("Science")
                             
-                            
-                            //                                            NavigationLink(destination: about_us_page()) {
-                            //                                                Text("About Us")
-                            //                                                    .tint(.white)
-                            //                                                    .font(.custom("Georgia", size: 20))
-                            //                                                    .padding()
-                            //                                                    .background(Rectangle() .foregroundColor(Color(red: 0.86, green: 0.42, blue: 0.47))
-                            //                                                        .cornerRadius(15)
-                            //                                                        .shadow(radius: 15)
-                            //
-                            //
-                            //                                                    )
-                            //                                            }
+                            VStack(spacing: 50) {
+                                
+                                Spacer()
+                                
+                                NavigationLink(destination: all_articles()) {
+                                    Text("All Articles")
+                                        .lineLimit(1)
+                                        .tint(.white)
+                                        .font(.custom("Georgia", size: 20))
+                                        .padding()
+                                        .background(Rectangle() .foregroundColor(Color(red: 0.86, green: 0.42, blue: 0.47))
+                                            .cornerRadius(15)
+                                            .shadow(radius: 7)
+                                             
+                                        )
+                                }
+                            }
                         }
+                        .padding(.horizontal, 50.0)
                         
                     }
                     // vstack
@@ -83,18 +99,21 @@ struct science: View {
                             }
                         })
                 )
-                .navigationTitle("STEMtelligence")
+                .navigationTitle("Biology - Creations")
+                
                 .toolbar {
                     ToolbarItem(placement: .bottomBar) {
                         HStack {
                             Button {
                                 withAnimation {
                                     currentIndex = max(0, currentIndex - 1)
-                                    // Text(title)
+                                 
                                 }
                             } label: {
                                 Image(systemName: "arrow.left")
-                                    .font(.title)
+                                  
+                                    .font(.custom("Georgia", size: 40))
+                                    .foregroundColor(.white)
                             }
                             Spacer()
                             Button {
@@ -103,7 +122,8 @@ struct science: View {
                                 }
                             } label: {
                                 Image(systemName: "arrow.right")
-                                    .font(.title)
+                                    .font(.custom("Georgia", size: 40))
+                                    .foregroundColor(.white)
                             }
                         }
                         .padding()
@@ -111,6 +131,12 @@ struct science: View {
                     
                     
                 }
+                .toolbarColorScheme(.light, for: .navigationBar)
+                .toolbarBackground(
+                    Color(red: 0.08, green: 0.62, blue: 0.71),
+                               for: .navigationBar)
+                           .toolbarBackground(.visible, for: .navigationBar)
+                        
                 
             }
             
