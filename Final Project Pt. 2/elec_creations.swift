@@ -23,17 +23,17 @@ struct elec_creations: View
                 NavigationStack {
                     VStack {
                         ZStack {
-                            Image("yellow_gradient")
+                            Image("red_gradient")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fill)
-                                .ignoresSafeArea()
+                                    .ignoresSafeArea()
                             
                             
                             ForEach(0..<newsItems.count, id: \.self){index in
                                 
                                 Text(newsItems[currentIndex].title)
                                     .fontWeight(.heavy)
-                                    .foregroundColor(Color(red: 0.33, green: 0.33, blue: 0.33))
+                                    .foregroundColor(Color(red: 1.00, green: 0.87, blue: 0.35))
                                     .font(.custom("Georgia", size: 25))
                                     .padding(.top, -280.0)
                                 
@@ -135,9 +135,9 @@ struct elec_creations: View
                         
                         
                     }
-                    .toolbarColorScheme(.dark, for: .navigationBar)
+                    .toolbarColorScheme(.light, for: .navigationBar)
                     .toolbarBackground(
-                        Color(red: 0.08, green: 0.62, blue: 0.71),
+                       Color(red: 1.00, green: 0.87, blue: 0.35),
                         for: .navigationBar)
                     .toolbarBackground(.visible, for: .navigationBar)
                     
